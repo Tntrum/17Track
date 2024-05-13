@@ -158,8 +158,8 @@ h4{
   background-color: grey; /* Default color for upcoming stages */
 }
 
-.tracking-info .transit:before {
-  background-color: black; /* Color for completed stages */
+.tracking-info .arrival-transit:before {
+  background-color: limegreen; /* Color for completed stages */
 }
 
 .status-div{
@@ -169,4 +169,10 @@ h4{
 
 .status{
   width: 80%;
+}
+
+.warning{
+  font-size: 0.45rem;
+  font-weight: lighter;
+  opacity: 85%;
 }
